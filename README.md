@@ -1,3 +1,11 @@
 # Mini_Ex6
 ![alt tekst](https://github.com/MathiasTvilling/Mini_Ex6/blob/master/Sk%C3%A6rmbillede%202018-03-19%20kl.%2019.39.22.png)
 Run it here: https://rawgit.com/MathiasTvilling/Mini_Ex6/master/Mini_Ex6_Fishtank/empty-example/index.html
+
+This weeks mini_ex did not go as planned. Originally, I intended to make an endless, boring texting conversation. I develloped rules, and formulated a concept, but unfortunately I could not get it to work. This left me with little time, and I ended up making something in a hurry, since what I had originally been working on just woulnd't play ball - as such, a lesson of frustration. 
+
+The program I ended up building, called fishtank, is simply fish swimming from one side to the other, changing colour while they do so. The rules are simple: First, a random number between 20 and 200 fish are spawned. These fish then swim about, changing their colours, until they reach the edge of the canvas, after which they are returned to the other side. This is not exactly generative as such, other that the fact you get a random (almost, at least) number of fish when you re-load the program. I did, however, take the oppertunity to work some more with object-oriented programming, and classes in p5.js, which proved to be a valuable lesson. So after all, I feel like I learned something from this.
+
+I also learned a lot from just conceptualizing the rules for my original program. It was supposed to start of with a question. When a question was asked, an answer would be generated. When an answer was made, the program could either chose to give a reaction, or ask another question. These three main components would be split in three different arrays, containing upward of 10 questions, answers or reactions. This exercise of conceptualizing what a conversation might consist of really gave some clarity to how generativety works. In theory, it is an endless loop of rules that are followed when we speak. Of course, my program would not have been very clever, in terms of understanding what is being said - it was my expectation that it would be gibberish - but never the less, the fact that a conversation can be created using three types of sentence structures is an interesting run of thought. 
+
+Next week, I hope to make something a little more interesting and cool than the fishtank - but for this week, it'll have to make do.
